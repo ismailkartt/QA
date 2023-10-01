@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Elemanları</title>
+</head>
+<body>
+    <h1>Form Elemanları</h1>
+    <form action="users/update" method="post">
+        <label for="ad">Adınızı giriniz:</label>
+        <input type="text" id="ad">
+        <br><br>
+
+        <label for="soyad">Soyadınızı giriniz:</label>
+        <input type="text" id="soyad">
+        <br><br>
+
+        <label for="yas">Yaşınızı giriniz:</label>
+        <input type="number" id="yas">
+        <br><br>
+
+        <label for="eposta">Epostanızı giriniz:</label>
+        <input type="email" id="eposta">
+        <br><br>
+
+        <label for="sifre">Şifrenizi belirleyiniz:</label>
+        <input type="password" id="sifre">
+        <br><br>
+
+        <label>Cinsiyet:</label>
+        <br>
+        <label for="bay">Bay</label>
+        <input type="radio" id="bay" name="cins">
+        <label for="bayan">Bayan</label>
+        <input type="radio" id="bayan" name="cins">
+        <br><br>
+
+        <label>Hobileriniz</label>
+        <br>
+        <label for="spor">Spor</label>
+        <input type="checkbox" id="spor">
+        <label for="muzik">Müzik</label>
+        <input type="checkbox" id="muzik">
+        <br><br>
+
+        <label for="dogumtarihi">Doğum Tarihiniz:</label>
+        <input type="datetime-local" id="dogumtarihi">
+        <br><br>
+
+        <label for="renk">Sevdiğiniz renk:</label>
+        <input type="color" id="renk">
+        <br><br>
+
+        <label for="cv">CV'nizi ekleyiniz:</label>
+        <input type="file" id="cv">
+        <br><br>
+
+        <label for="dogumyeri">Doğum Yeriniz:</label>
+        <select id="dogumyeri">
+            <option value="00">Bir seçenek seçiniz</option>
+            <option value="01">Adana</option>
+            <option value="02">Adıyaman</option>
+            <option value="03">Afyon</option>
+        </select>
+        <br><br>
+
+        <label for="mesaj">Mesajınız:</label>
+        <br>
+        <textarea id="mesaj" cols="20" rows="5"></textarea>
+        <br><br>
+
+        <input type="button" value="Buton">
+        <input type="submit" value="Formu Gönder">
+        <input type="reset" value="Formu Temizle">
+    </form>
+</body>
+</html>

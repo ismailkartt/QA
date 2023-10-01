@@ -1,0 +1,112 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0px;
+}
+
+body{
+    background-color: rgb(255, 249, 241);
+    line-height: 1.4;
+    color: rgb(67, 59, 59);
+    text-align: justify;
+}
+
+#header{
+    background-color: rgb(91, 170, 250);
+    text-align: center;
+    color: rgb(255, 255, 255);
+    padding: 25px;
+}
+
+h1{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+#header h2{
+    font-weight: 300;
+    font-size: 25px;
+    letter-spacing: 2px;
+}
+
+#main{
+    width: 1000px;
+    margin: auto;
+    padding: 25px;
+    border-left: 1px solid rgb(161, 161, 161);
+    border-right: 1px solid rgb(161, 161, 161);
+}
+
+#main h2{
+    font-style: italic;
+    padding-bottom: 5px;
+    margin-top: 15px;
+    border-bottom: 2px solid rgb(91, 170, 250);
+}
+
+.profil{
+    display: flex;
+    align-items: center;
+}
+
+.profil img{
+    width: 200px;
+    margin-top: 10px;
+    margin-right: 10px;
+    border: 2px solid rgb(91, 170, 250);
+    border-radius: 15px;
+    box-shadow: 5px 5px rgba(128, 128, 128, 0.304);
+}
+
+ul{
+    padding-left: 10px;
+}
+
+ul li{
+    list-style: none;
+    margin-top: 5px;
+}
+
+.proje{
+    border: 1px solid rgb(161, 161, 161);
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+}
+
+h3{
+    font-size: 18px;
+}
+
+a{
+    color: rgb(91, 170, 250);
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+label{
+    font-weight: 600;
+    display: block;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+
+input, textarea{
+    width: 100%;
+    padding: 7px;
+    border: 1px solid rgb(161, 161, 161);
+    border-radius: 5px;
+}
+
+#buton{
+    width: 80px;
+    margin-top: 10px;
+    background-color: rgb(91, 170, 250);
+    color: aliceblue;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+}
+
